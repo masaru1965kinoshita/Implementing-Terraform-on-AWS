@@ -8,3 +8,5 @@ terraform apply state.tfplan
 
 # Make note of the s3 bucket name and dynamodb table name
 
+dynamodb_statelock = "globo-tfstatelock-81367"
+s3_bucket = "globo-81367"
