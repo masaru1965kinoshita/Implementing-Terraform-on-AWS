@@ -2,7 +2,7 @@
 # to your desired region
 
 # Initialize the terraform configuration
-terraform init
+terraform inite
 
 # Plan the terraform deployment
 terraform plan -out vpc.tfplan

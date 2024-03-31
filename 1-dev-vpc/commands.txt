@@ -23,7 +23,7 @@ terraform apply "vpc.tfplan"
 ren peering.tf.rename peering.tf
 
 # Run terraform plan
-terraform plan -var peer_role_arn="PEER_ROLE_ARN" -var destination_vpc_id="SEC_VPC_ID" -out peer.tfplan
+terraform plan -var peer_role_arn="arn:aws:iam::747935985206:role/peer_role" -var destination_vpc_id="vpc-0a85a4fe0851e029d" -out peer.tfplan
 
 # Run terraform apply
 terraform apply "peer.tfplan"
